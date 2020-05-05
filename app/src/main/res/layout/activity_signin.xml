@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".signin"
+    android:background="@drawable/appback">
+
+
+    <EditText
+        android:id="@+id/pass"
+        android:layout_width="411dp"
+        android:layout_height="53dp"
+        android:background="@drawable/namesu"
+        android:ems="10"
+        android:gravity="center"
+        android:hint="Enter your password"
+        android:inputType="textPassword"
+        android:textColorHint="#3f51b5"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView"
+        app:layout_constraintVertical_bias="0.483" />
+
+    <EditText
+        android:id="@+id/cpass"
+        android:layout_width="411dp"
+        android:layout_height="53dp"
+        android:background="@drawable/namesu"
+        android:ems="10"
+        android:gravity="center"
+        android:hint="Confirm Your Password"
+        android:inputType="textPassword"
+        android:textColorHint="#3f51b5"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView"
+        app:layout_constraintVertical_bias="0.671" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="237dp"
+        android:layout_height="126dp"
+        android:foregroundGravity="center"
+        android:gravity="center"
+        android:text="My Ideal PC"
+        android:textColor="#01579b"
+        android:textSize="50dp"
+        android:fontFamily="sans-serif-condensed"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.496"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.078" />
+
+    <EditText
+        android:id="@+id/fullname"
+        android:layout_width="411dp"
+        android:layout_height="53dp"
+        android:background="@drawable/namesu"
+        android:ems="10"
+        android:hint="Enter Your Full Name"
+        android:gravity="center"
+        android:inputType="textPersonName"
+        android:textColorHint="#3f51b5"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView"
+        app:layout_constraintVertical_bias="0.079" />
+
+    <EditText
+        android:id="@+id/usrname"
+        android:layout_width="411dp"
+        android:layout_height="53dp"
+        android:background="@drawable/namesu"
+        android:ems="10"
+        android:gravity="center"
+        android:hint="Enter Your User Name"
+        android:inputType="textPersonName"
+        android:textColorHint="#3f51b5"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView"
+        app:layout_constraintVertical_bias="0.281" />
+
+    <Button
+        android:id="@+id/signin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Sign UP"
+        android:gravity="center"
+        android:foregroundGravity="center"
+        android:textColor="#3f51b5"
+        android:background="@drawable/login"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/cpass" />
+</androidx.constraintlayout.widget.ConstraintLayout>

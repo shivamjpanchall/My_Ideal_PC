@@ -1,0 +1,77 @@
+{
+  "project_info": {
+    "project_number": "610906638262",
+    "firebase_url": "https://my-ideal-pc.firebaseio.com",
+    "project_id": "my-ideal-pc",
+    "storage_bucket": "my-ideal-pc.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:610906638262:android:1cfcb144d9bf8cb7a66317",
+        "android_client_info": {
+          "package_name": "com.example.myidealpc"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "610906638262-fqkhgj74mciqk3411e4lcmm9cvfbr4dc.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA3gM7twFqiRwN3VFhGFcIs5FiuC6P3-hY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "610906638262-fqkhgj74mciqk3411e4lcmm9cvfbr4dc.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:610906638262:android:66824fb1b7096178a66317",
+        "android_client_info": {
+          "package_name": "me.jaxvy.boilerplate"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "610906638262-rqdcnsjjnp438g2ps4ialuvqqtp8j96v.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "me.jaxvy.boilerplate",
+            "certificate_hash": "5c1a75f0538bd43095cc4b4e1feb7dbfe2a723fc"
+          }
+        },
+        {
+          "client_id": "610906638262-fqkhgj74mciqk3411e4lcmm9cvfbr4dc.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA3gM7twFqiRwN3VFhGFcIs5FiuC6P3-hY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "610906638262-fqkhgj74mciqk3411e4lcmm9cvfbr4dc.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
